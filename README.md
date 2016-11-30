@@ -1,2 +1,2 @@
 # SixtySix
-Simple php Router, wrote following OOP.
+Simple php Router, OOP.
