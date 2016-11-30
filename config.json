@@ -1,0 +1,17 @@
+[
+	{
+		"location": "hello/:name",
+		"method": "GET",
+		"view": "upload",
+		"controller": ["Salute", "hello"],
+		"arguments": ["name"]
+	},
+	{
+		"location": "file/upload",
+		"method": "POST",
+		"view": "upload_success",
+		"controller": [],
+		"arguments": ["upload"],
+		"files": ["file"]
+	}
+]
